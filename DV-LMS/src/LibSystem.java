@@ -111,6 +111,7 @@ public class LibSystem {
                     System.out.print("Enter file path: ");
                     String filePath = scanner.nextLine();
                     addPatronFromFile(filePath);
+                    displayAllPatrons();
                     break;
                 case 2:
                     System.out.print("Enter ID: ");
@@ -122,11 +123,13 @@ public class LibSystem {
                     System.out.print("Enter Overdue Fine: ");
                     float fine = scanner.nextFloat();
                     addPatronManually(id, name, address, fine);
+                    displayAllPatrons();
                     break;
                 case 3:
                     System.out.print("Enter Patron ID to remove: ");
                     String removeId = scanner.nextLine();
                     removePatron(removeId);
+                    displayAllPatrons();
                     break;
                 case 4:
                     displayAllPatrons();

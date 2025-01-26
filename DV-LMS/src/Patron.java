@@ -115,6 +115,6 @@ public class Patron {
     @Override
     public String toString() {
         return String.format("%s-%s-%s-%.2f",
-                id, name, address, overdueFine);
+                getId(), getName(), getAddress(), getOverdueFine());
     }
 }
