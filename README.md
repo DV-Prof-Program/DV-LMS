@@ -1,4 +1,5 @@
 This program implements a Library Management System (LMS) designed to manage a list of patrons in a library. It provides a console-based menu for users to perform tasks such as adding, removing, and viewing patrons.
+Note: DV-LMS.jar opens properly when opened via command line, but does not open when directly double-clicked, despite the manifest file being formatted correctly. As such, a batch file (DV-LMS.bat) is included, which will open the .jar file so long as both are in the same folder.
 
 Features:
 
